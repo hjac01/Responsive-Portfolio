@@ -1,0 +1,339 @@
+
+.topnav {
+    overflow: hidden;
+    color: #777777; 
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif; 
+    border-style: solid; 
+    border-top-style:none;
+    border-right-style:none;
+    border-color: #cccccc;
+    margin-top : 0px!important;
+    margin-bottom: 20px!important;
+    width: 100%;
+    
+  }
+  .navbar-text {
+        display: inline-block;
+        vertical-align: top;
+        background-color:#4aaaaf;
+        font-family:'Georgia', Times, Times New Roman, serif;
+        color:#ffffff;
+        width: 20%;
+        height: 50px; 
+        padding:20px;
+        border: none; 
+        font-size: 25px;
+        text-align:center;
+        margin: auto;   
+      
+    }
+  
+  .topnav > a {
+    float: none;
+    color: #cccccc;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;   
+    width: 100px;
+    text-align: center;
+    padding: 4px;
+    }
+
+  body {
+    background-image: url("../images/united-squares-negative.png");
+    background-position: right top;
+    background-color: #cccccc; 
+    width: 960px;
+    padding: 100px;
+    margin: 9px auto;    
+    border: #dddddd;   
+       
+  }
+
+  img {
+    float: left;
+    padding: 10px;
+    height: 200px;
+    margin: 5px;
+  
+  }
+
+  h2 { 
+    color:#4aaaa5;
+    background-color: #ffffff;
+    
+  }
+  .aboutme {
+    background-color: #ffffff;
+    border-style: solid; 
+    border-color: #cccccc;
+    border-top-style: none;
+    padding: 50px;
+    margin: 0; 
+    font-family:'Georgia', Times, Times New Roman, serif;
+    color: #777777;
+    word-spacing: 8px;
+   
+  }
+  
+  .contact {
+    background-color: #ffffff;
+    border:solid;
+    border-bottom: none;
+    border-color:#cccccc; 
+    padding: 10px;
+    margin: 0;
+    text-align: left;  
+    font-family:'Georgia', Times, Times New Roman, serif;
+    color: #777777;
+    word-spacing: 8px;
+
+  }
+
+  .line {
+    border: 1px solid #cccccc;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: block;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 3px;
+  box-sizing: border-box;
+  color:#666666;  
+  box-shadow: none;
+
+}
+
+.form {
+  color:#777777;
+  border: solid; 
+  border-color: #cccccc;
+  border-top: none; 
+  font-family:Arial, Helvetica, sans-serif;
+  box-shadow: none; 
+  padding: 0em; 
+  background-color: #ffffff; 
+  
+ 
+}
+
+textarea {
+  padding: 20px; 
+}
+
+
+button {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  width: 200px;
+  height:60px;
+  font-family: Arial, Helvetica, sans-serif
+}
+.column {
+  float: left;
+  width: 50%; 
+  height: 60%; 
+  color: #ffffff; 
+  position: relative; 
+  text-align: center; 
+  background-color: #ffffff; 
+
+}
+.row {
+  background-color: #ffffff;
+  width: 99.5%;
+  border: solid; 
+  border-color:#cccccc;
+  border-top: none; 
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;  
+  background-color: #ffffff; 
+}
+
+.portfolio {
+  background-color: #ffffff;
+    border:solid;
+    border-bottom: none;
+    border-color:#cccccc; 
+    padding: 10px;
+    margin: 0;
+    text-align: left;  
+    font-family:'Georgia', Times, Times New Roman, serif;
+    color: #777777;
+    word-spacing: 8px;
+}
+.hangman {
+  position: absolute;
+  top: 60%; 
+  left: 42%; 
+  transform: translate(-50%, -50%);
+  background-color:#4aaaa5;
+  font-size: 35px;
+  text-align: center;
+  color: #ffffff;
+  padding-right: 8px; 
+  padding-left: 8px; 
+  margin: 15px; 
+  background-size: auto; 
+  width: 80%
+}
+.rpg-game { 
+  position: absolute;
+  top: 40%;  
+  left: 42%; 
+  transform: translate(-50%, 50%);
+  background-color:#4aaaa5;
+  font-size: 35px;
+  text-align: center;
+  color: #ffffff;
+  padding-right: 8.5px; 
+  padding-left: 8px; 
+  margin: 15px; 
+  background-size: auto; 
+  width: 80%;
+  
+}
+.trivia-game {
+  position: absolute;
+  top: 60%; 
+  left: 42%; 
+  transform: translate(-50%, -50%);
+  background-color:#4aaaa5;
+  font-size: 35px;
+  text-align: center;
+  color: #ffffff;
+  padding-right: 8px; 
+  padding-left: 8px; 
+  margin: 15px; 
+  background-size: auto; 
+  width: 80%
+}
+.rutgers-info-widget {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  background-color:#4aaaa5;
+  font-size: 35px;
+  text-align: center;
+  color: #ffffff;
+  padding-right: 30px; 
+  padding-left: 30px; 
+  margin: 15px; 
+  background-size: auto; 
+  width: 80%
+}
+.rock-paper-scissors {
+  position: absolute;
+  top: 50%; 
+  left: 42%; 
+  transform: translate(-50%, -50%);
+  background-color:#4aaaa5;
+  font-size: 35px;
+  text-align: center;
+  color: #ffffff;
+  padding-right: 8px; 
+  padding-left: 8px; 
+  margin: 15px; 
+  background-size: auto; 
+  width: 80%
+}
+
+#footer {
+    width:100%;  
+     overflow: hidden;
+     padding: 4px;    
+     background-color: #4aaaa5;
+}
+
+#bottom-footer {
+    padding:10px;
+    overflow: hidden;
+    background-color:#666666;  
+}   
+
+.fotter-quote {
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:9px;
+    color:#ffffff;
+    text-align:bottom;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+}
+
+@media screen and (max-width: 640px) {
+  .topnav >a{
+    width: 20%; 
+    padding: none; 
+    margin: none;
+    text-align:center;
+    position: static; 
+    display: inline-block;
+    overflow:none;
+
+  }
+  .topnav{
+    width: 75%; 
+    text-align: center;  
+    overflow:none;
+
+  }
+  .navbar-text{ 
+    width: 100%;
+    display: inline-block;
+    padding: none; 
+    margin: none; 
+    vertical-align: top; 
+    overflow:none;
+
+  } 
+  .body{
+    width: 100%; 
+
+  }
+  .aboutme{
+    width:50%; 
+    display: inline-block;
+    font-size:15px;
+  }
+  .line{
+    width: 80%; 
+  }
+  
+  .footer{
+    max-width: 50%; 
+    padding: none; 
+    display: inline-block;
+  }
+  .bottomfooter{
+    width: 50%; 
+    padding: none; 
+    display: inline-block;
+  }
+  .fotter-quote{
+    width: 50%;
+    padding: none; 
+    display: inline-block;
+  }
+    
+}
