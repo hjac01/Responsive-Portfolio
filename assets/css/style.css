@@ -351,7 +351,7 @@ button {
 
 @media screen and (max-width: 768px) {
   
-  }
+  
   .topnav >a{
     width: 60%; 
     padding: none; 
@@ -426,15 +426,18 @@ button {
     max-width: 50%; 
     text-align: left; 
     left: 30%; 
+    flex-wrap: wrap; 
     position: absolute; 
+    transform: (-30%,-30%)e
     padding: none; 
   }
+  
   .trivia-game{
     position: absolute;
     left: 30%;
-    transform(-30%,-30%)
-    padding: none; 
+    transform (-30%,-30%)  
   }
+ 
   .contact{
     width:100%; 
     display: inline-block;
